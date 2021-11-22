@@ -1,0 +1,7 @@
+# Program to find largest number.
+lst=[4,3,6,8,9,2,5,1]
+a=lst[0]
+for i in lst:
+    if i > a:
+        a=i
+print(a)
