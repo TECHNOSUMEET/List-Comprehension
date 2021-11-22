@@ -1,0 +1,10 @@
+# Write a Python program to move all zero digits to end of a given list of numbers.
+lst=[0,2,3,4,0,0,6,5,0,4,0,3,2,6,0]
+
+for i in lst:
+    if i == 0:
+        lst.remove(i)
+        lst.append(0)
+
+print(lst)
+
