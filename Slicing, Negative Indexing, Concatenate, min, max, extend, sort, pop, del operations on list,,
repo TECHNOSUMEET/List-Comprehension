@@ -1,0 +1,27 @@
+nums=[10,23,44,32,12,21,43]
+num=[5,6,8,9,0]
+letters=['g','j','i']
+print(nums)
+print(nums[4])
+print(nums[4:])
+print(nums[2:5])
+print(nums[-3])
+print(num + nums + letters)
+print(len(num))
+letters.append('h')
+print(letters)
+num.insert(1,67)
+print(num)
+nums.remove(23)
+nums.pop()
+nums.pop(4)
+print(nums)
+del num[2:]
+print(num)
+num.extend([8,9,0,00,5])
+print(num)
+print(min(num))
+print(max(num))
+print(sum(num))
+num.sort()
+print(num)
