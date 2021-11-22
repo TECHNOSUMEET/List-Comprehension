@@ -1,0 +1,19 @@
+# Find Common and Missing Values From Two Lists.
+lst1 = [1, 8, 9, 0, 6, 3]
+lst2 = [1, 2, 3, 4, 5, 6, 7, 8]
+comn = []
+mis_in_lst2 = []
+mis_in_lst1 = []
+
+for i in lst1:
+    if i not in lst2:
+        mis_in_lst2.append(i)
+    else:
+        comn.append(i)
+for i in lst2:
+    if i not in lst1:
+        mis_in_lst1.append(i)
+
+print("Common values of Both List--", comn)
+print("Missing Values of List-1 in List-2--", mis_in_lst2)
+print("Missing Values of List-2 in List-1--", mis_in_lst1)
