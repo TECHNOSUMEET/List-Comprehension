@@ -1,0 +1,10 @@
+
+# Write a Python program to check a list is empty or not.
+
+lst = list(input("ENTER VALUES--- "))
+if lst.__len__() > 0:
+    print("List is Not Empty")
+    print(lst)
+else:
+    print("List is Empty")
+    print(lst)
