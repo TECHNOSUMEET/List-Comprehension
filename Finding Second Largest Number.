@@ -1,0 +1,6 @@
+lst = [1,2,3,43,2,2,1,2,55]
+print("ENTERED LIST is--:", lst)
+lst.sort()
+lst = list(set(lst))
+print(lst)
+print("SECOND LARGEST NUMBER FROM LIST IS--", lst[-2])
