@@ -1,0 +1,7 @@
+# MULTIPLICATION OF ALL NUMBERS OF LIST.
+lst=[1,3,5,7]
+mul=1
+for i in lst:
+    mul*=i
+
+print(mul)
