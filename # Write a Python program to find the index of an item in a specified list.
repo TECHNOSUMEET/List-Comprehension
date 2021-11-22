@@ -1,0 +1,7 @@
+# Write a Python program to find the index of an item in a specified list.
+
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(a)
+b = int(input('ENTER VALUE FROM ABOVE LIST TO ACCESS INDEX'))
+if b in a:
+    print("Index of Value is ", a.index(b))
