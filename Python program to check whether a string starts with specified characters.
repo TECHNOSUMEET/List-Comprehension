@@ -1,0 +1,7 @@
+str1 = 'SUM is 100'
+if str1.startswith('SUM') == True:
+    print("STRING STARTS WITH 'SUM' ")
+    print(str1)
+else:
+    print("STRING DO NOT START WITH 'SUM' ")
+    print(str1)
