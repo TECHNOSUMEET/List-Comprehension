@@ -1,0 +1,13 @@
+str1 = str(input('ENTER STRING FOR ENCRYPTION'))
+str1 = str1.upper()
+ls2 = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',' ','@','#','%']
+ls1 = list(str1)
+ls3 = []
+for i in ls1:
+    v = ls2.index(i)
+    n = ls2[v+3]
+    ls3.append(n)
+
+str2 = ''.join(ls3)
+print('ORIGINAL STRING IS--:', str1)
+print('ENCRYPTED STRING IS--:', str2)
